@@ -98,7 +98,7 @@ nav {
   gap: 20px;
 }
 
-.project- {
+.project-card {
   background-color: #fff;
   padding: 20px;
   border: 1px solid #bb0404;
@@ -125,11 +125,28 @@ nav {
   color: #6a1b9a;
 }
 
-.realisation-card a {
-  display: inline-block;
+.realisation-card p {
+  text-align: center;
+}
+
+#img img{
+  width: 300px;
   margin-top: 10px;
-  color: #ff9800;
-  text-decoration: none;
+  margin-left: 200px;
+}
+
+.btn {
+  padding: 14px;
+  margin-left: 280px;
+  margin-top: 20px;
+  background: #c0c1c3;
+  border: 1px solid #0d6cca;
+  border-radius: 20px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px royalblue;
+  cursor: pointer;
+  animation: pulse 3s infinite;
+
 }
 
 /* === FORMULAIRE DE CONTACT === */
