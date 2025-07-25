@@ -100,7 +100,7 @@ nav {
 
 .project-card {
   background-color: #fff;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #bb0404;
   border-radius: 5px;
   flex: 1;
@@ -130,7 +130,7 @@ nav {
 }
 
 #img img{
-  width: 30px;
+  width: 300px;
   margin-top: 10px;
   margin-left: 200px;
 }
