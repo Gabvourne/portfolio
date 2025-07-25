@@ -93,19 +93,21 @@ nav {
 
 /* === PROJETS === */
 .projects-grid {
-  display: flex;
+  display: grid;
   flex-wrap: wrap;
   gap: 20px;
 }
 
 .project-card {
   background-color: #fff;
-  padding: 10px;
+  padding: 15px;
+  text-align: center;
   border: 1px solid #bb0404;
   border-radius: 5px;
   flex: 1;
   min-width: 250px;
 }
+
 .realisations-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -123,6 +125,7 @@ nav {
 .realisation-card h3 {
   margin-top: 0;
   color: #6a1b9a;
+  text-align: center;
 }
 
 .realisation-card p {
